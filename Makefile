@@ -1,9 +1,9 @@
 CC=gcc
 CFLAGS=-Wall -Wextra
-LIBS=-l:sqlite3.dll
+LIBS=-lsqlite3
 
 main: main.c
 	$(CC) $(CFLAGS) -I./ -o $@ $< -L./ $(LIBS)
 
 clean:
-	rm main.exe 2> /dev/null
+	rm main 2> /dev/null

@@ -29,7 +29,7 @@ int main(int argc, char** argv) {
 
 	if (argc < 3) {
 		fprintf(stderr, "[ERROR] Insufficient Arguments!\n");
-		fprintf(stderr, "Usage: %s <database> <sql-statement>", argv[0]);
+		fprintf(stderr, "Usage: %s <database> <sql-statement>\n", argv[0]);
 		return 1;
 	}
 
